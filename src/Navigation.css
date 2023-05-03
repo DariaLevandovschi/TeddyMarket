@@ -1,0 +1,72 @@
+/* App.css */
+
+/* Header styles */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  height: 80px;
+  padding: 0 24px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.ant-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #675454;
+  padding: 0 20px;
+  height: 70px;
+}
+
+.ant-menu-item {
+  font-size: 18px;
+}
+
+/* Main content styles */
+.site-layout-content {
+  margin: 24px 0;
+  padding: 24px;
+  min-height: 280px;
+}
+
+/* Footer styles */
+.ant-layout-footer {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 24px;
+  margin-top: 50px;
+}
+
+/* Right menu item styles */
+.right-menu-item {
+  margin-left: auto;
+}
+
+/* Ant Design Button styles */
+.ant-btn-primary {
+  background-color: #1890ff;
+  border-color: #1890ff;
+}
+
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+  background-color: #40a9ff;
+  border-color: #40a9ff;
+}
+
+/* Ant Design Input styles */
+.ant-input {
+  height: 40px;
+  border-radius: 4px;
+}
